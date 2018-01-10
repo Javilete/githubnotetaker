@@ -61,7 +61,7 @@ WebView react native component allows you to display web content of a specific u
 
 When navigating from one screen to another, we might need to pass parameters to be used in the destination screen. These parameters might be part of the screen state so to be able to initialize that state and grab the value from props in the constructor of the new component, for example, if one of the parameters is notes, it can be accessed like  props.navigation.state.params.notes , so like this, it can be set in the component state.
 
-```
+```javascript
 class Notes extends React.Component {
 
   constructor(props){
