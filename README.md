@@ -24,7 +24,8 @@ const Navigator = StackNavigator({
 To be able to navigate from one screen to another (between components in the end) you get the navigate object with the following statement:
 
 ```javascript
-const { navigate } = this.props.navigation; //Using destructuring assignment
+const { navigate } = this.props.navigation; 
+// Using destructuring assignment
 ```
 
 and then we can call the method like following:
@@ -69,4 +70,4 @@ class Notes extends React.Component {
       notes: props.navigation.state.params.notes
     }
   }
-  ```javascript
+  ```
